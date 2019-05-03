@@ -75,7 +75,7 @@ void AudioManager::playSoundFX(const GameLib::SoundFX& clip,
                                const float& volume,
                                const bool& loop)
 {
-  if (loaded_fx.count(clip))
+  if (loaded_fx.count(clip) && fx_enabled)
   {
     loaded_fx[clip].setLooping(loop);
     audio_engine.play(loaded_fx[clip], volume * fx_volume);

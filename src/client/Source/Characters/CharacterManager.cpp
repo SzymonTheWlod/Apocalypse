@@ -144,6 +144,7 @@ void CharacterManager::onNotify(GameLib::NetworkPacket& data)
       if (local_character == type &&
           amount > characters[type]->getActionPoints())
       {
+        Locator::instance->getAudioManager()->enableFX(true);
         time_elapsed = 0;
         show_text = true;
         Locator::instance->getAudioManager()->playSoundFX(

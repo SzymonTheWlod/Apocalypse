@@ -112,11 +112,14 @@ void Map::onNotify(GameLib::NetworkPacket& data)
     }
     case GameLib::EventType::SET_TILE_RESOURCES:
     {
-      Locator::instance->getAudioManager()->playSoundFX(
-        GameLib::SoundFX::SCAVANGE);
       size_t index;
       Resources res;
       data >> index >> res;
+      if (tiles[index]->getName() != "Town Hall")
+      {
+        Locator::instance->getAudioManager()->playSoundFX(
+          GameLib::SoundFX::SCAVANGE);
+      }
       tiles[index]->setResources(res);
       break;
     }

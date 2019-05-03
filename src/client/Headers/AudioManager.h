@@ -34,6 +34,8 @@ class AudioManager
   float getMusicVolume() { return music_volume; };
   float getFXVolume() { return fx_volume; };
 
+  void enableFX(bool should_play) { fx_enabled = should_play; };
+
  private:
   SoLoud::Soloud audio_engine;
   nlohmann::json sound_paths;
@@ -48,6 +50,7 @@ class AudioManager
 
   float music_volume = 1;
   float fx_volume = 1;
+  bool fx_enabled = true;
 };
 
 #endif // PROJECT_AUDIOMANAGER_H

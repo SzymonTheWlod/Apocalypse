@@ -28,6 +28,7 @@ GameScene::~GameScene()
 
 bool GameScene::load()
 {
+  Locator::instance->getAudioManager()->enableFX(false);
   loadAllSounds();
   Locator::instance->getNetworkManager()->addObserver(
     this, GameLib::EventType::CLIENT_DISCONNECTED);

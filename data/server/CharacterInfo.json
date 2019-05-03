@@ -1,0 +1,55 @@
+{
+"0":
+    {
+        "name" : "Medic",
+        "health" : 100,
+        "vision" : 1,
+        "armour" : 2,
+        "action_points" : 3,
+        "scout_cost" : 2,
+        "scavenge_cost" : 2,
+        "scavenge_amount" : 15,
+        "heal_cost" : 1,
+        "heal_amount" : 15
+    },
+    "1":
+    {
+        "name" : "Scout",
+        "health" : 60,
+        "vision" : 2,
+        "armour" : 1,
+        "action_points" : 5,
+        "scout_cost" : 1,
+        "scavenge_cost" : 3,
+        "scavenge_amount" : 10,
+        "heal_cost" : 3,
+        "heal_amount" : 10
+        
+    },
+    "2":
+    {
+        "name" : "Soldier",
+        "health" : 150,
+        "vision" : 1,
+        "armour" : 4,
+        "action_points" : 3,
+        "scout_cost" : 2,
+        "scavenge_cost" : 2,
+        "scavenge_amount" : 15,
+        "heal_cost" : 3,
+        "heal_amount" : 10
+    },
+    "3":
+    {
+        "name" : "Builder",
+        "health" : 100,
+        "vision" : 1,
+        "armour" : 2,
+        "action_points" : 3,
+        "scout_cost" : 2,
+        "scavenge_cost" : 2,
+        "scavenge_amount" : 20,
+        "heal_cost" : 3,
+        "heal_amount" : 10
+    }
+}

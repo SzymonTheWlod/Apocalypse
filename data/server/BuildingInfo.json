@@ -1,0 +1,456 @@
+{
+"config": {
+    "buildings": 225,
+    "map_height": 15,
+    "map_width": 15,
+    "tile_width": 50
+},
+
+"id_to_name":{
+    "0":"town_hall",
+    "1":"house",
+    "2":"flats",
+    "3":"hospital",
+    "4":"school",
+    "5":"police_station",
+    "6":"fire_station",
+    "7":"university",
+    "8":"water_plant",
+    "9":"grass",
+    "10":"supermarket"
+    
+},
+    
+"resources": {
+	"water": 500,
+    "food": 500,
+	"wood": 250,
+	"metal": 250,
+	"medicine": 100,
+	"fuel": 75
+},
+
+"building_number": {
+    "town_hall":{
+        "type": 0,
+        "max": 1,
+        "min": 1,
+        "probability": 0
+    },
+	"house":{
+        "type": 1,
+		"max": 40,
+		"min": 10,
+		"probability": 10
+	},
+	"flats":{
+        "type": 2,
+		"max": 40,
+		"min": 10,
+		"probability": 10
+	},
+	"hospital":{
+        "type": 3,
+		"max": 6,
+		"min": 1,
+		"probability": 2
+	},
+    "school":{
+        "type": 4,
+		"max": 6,
+		"min": 1,
+		"probability": 2
+	},
+	"police_station":{
+        "type": 5,
+		"max": 10,
+		"min": 2,
+		"probability": 4
+	},
+	"fire_station":{
+        "type": 6,
+		"max": 10,
+		"min": 2,
+		"probability": 4
+	},
+	"university":{
+        "type": 7,
+		"max": 6,
+		"min": 1,
+		"probability": 2
+	},
+    "water_plant":{
+        "type": 8,
+		"max": 20,
+		"min": 4,
+		"probability": 5
+	},
+    "grass":{
+        "type": 9,
+		"max": 200,
+		"min": 80,
+		"probability": 80
+    },
+	"supermarket":{
+        "type": 10,
+		"max": 20,
+		"min": 4,
+		"probability": 5
+	}
+},
+
+"buildings": {
+        "town_hall": {
+			"water": {
+				"max": 0,
+				"min": 0,
+				"probability": 0
+			},
+			"food": {
+				"max": 0,
+				"min": 0,
+				"probability": 0
+			},
+			"wood": {
+				"max": 0,
+				"min": 0,
+				"probability": 0
+			},
+			"metal": {
+				"max": 0,
+				"min": 0,
+				"probability": 0
+			},
+			"medicine": {
+				"max": 0,
+				"min": 0,
+				"probability": 0
+			},
+			"fuel": {
+				"max": 0,
+				"min": 0,
+				"probability": 0
+            }
+        },
+		"house": {
+			"water": {
+				"max": 10,
+				"min": 0,
+				"probability": 10
+			},
+			"food": {
+				"max": 10,
+				"min": 0,
+				"probability": 10
+			},
+			"wood": {
+				"max": 10,
+				"min": 0,
+				"probability": 10
+			},
+			"metal": {
+				"max": 10,
+				"min": 0,
+				"probability": 10
+			},
+			"medicine": {
+				"max": 5,
+				"min": 0,
+				"probability": 5
+			},
+			"fuel": {
+				"max": 5,
+				"min": 0,
+				"probability": 5
+			}
+		},
+		"flats": {
+			"water": {
+				"max": 10,
+				"min": 2,
+				"probability": 10
+			},
+			"food": {
+				"max": 10,
+				"min": 2,
+				"probability": 10
+			},
+			"wood": {
+				"max": 5,
+				"min": 2,
+				"probability": 10
+			},
+			"metal": {
+				"max": 5,
+				"min": 2,
+				"probability": 10
+			},
+			"medicine": {
+				"max": 2,
+				"min": 0,
+				"probability": 5
+			},
+			"fuel": {
+				"max": 2,
+				"min": 0,
+				"probability": 5
+			}
+		},
+		"hospital": {
+			"water": {
+				"max": 20,
+				"min": 5,
+				"probability": 20
+			},
+			"food": {
+				"max": 20,
+				"min": 5,
+				"probability": 20
+			},
+			"wood": {
+				"max": 5,
+				"min": 0,
+				"probability": 10
+			},
+			"metal": {
+				"max": 5,
+				"min": 0,
+				"probability": 10
+			},
+			"medicine": {
+				"max": 10,
+				"min": 5,
+				"probability": 10
+			},
+			"fuel": {
+				"max": 5,
+				"min": 0,
+				"probability": 10
+			}
+		},
+		"school": {
+			"water": {
+				"max": 15,
+				"min": 5,
+				"probability": 10
+			},
+			"food": {
+				"max": 15,
+				"min": 5,
+				"probability": 10
+			},
+			"wood": {
+				"max": 10,
+				"min": 5,
+				"probability": 10
+			},
+			"metal": {
+				"max": 10,
+				"min": 5,
+				"probability": 10
+			},
+			"medicine": {
+				"max": 2,
+				"min": 1,
+				"probability": 10
+			},
+			"fuel": {
+				"max": 0,
+				"min": 0,
+				"probability": 0
+			}
+		},
+		"police_station": {
+			"water": {
+				"max": 5,
+				"min": 0,
+				"probability": 5
+			},
+			"food": {
+				"max": 5,
+				"min": 0,
+				"probability": 5
+			},
+			"wood": {
+				"max": 20,
+				"min": 5,
+				"probability": 15
+			},
+			"metal": {
+				"max": 20,
+				"min": 5,
+				"probability": 15
+			},
+			"medicine": {
+				"max": 3,
+				"min": 0,
+				"probability": 15
+			},
+			"fuel": {
+				"max": 10,
+				"min": 5,
+				"probability": 10
+			}
+		},
+		"fire_station": {
+			"water": {
+				"max": 30,
+				"min": 15,
+				"probability": 20
+			},
+			"food": {
+				"max": 5,
+				"min": 0,
+				"probability": 10
+			},
+			"wood": {
+				"max": 10,
+				"min": 5,
+				"probability": 10
+			},
+			"metal": {
+				"max": 10,
+				"min": 5,
+				"probability": 10
+			},
+			"medicine": {
+				"max": 2,
+				"min": 0,
+				"probability": 10
+			},
+			"fuel": {
+				"max": 10,
+				"min": 3,
+				"probability": 10
+			}
+		},
+		"university": {
+			"water": {
+				"max": 10,
+				"min": 5,
+				"probability": 10
+			},
+			"food": {
+				"max": 10,
+				"min": 5,
+				"probability": 10
+			},
+			"wood": {
+				"max": 15,
+				"min": 5,
+				"probability": 15
+			},
+			"metal": {
+				"max": 15,
+				"min": 5,
+				"probability": 15
+			},
+			"medicine": {
+				"max": 3,
+				"min": 3,
+				"probability": 0
+			},
+			"fuel": {
+				"max": 0,
+				"min": 0,
+				"probability": 0
+			}
+		},
+		"water_plant": {
+			"water": {
+				"max": 40,
+				"min": 20,
+				"probability": 30
+			},
+			"food": {
+				"max": 0,
+				"min": 0,
+				"probability": 0
+			},
+			"wood": {
+				"max": 3,
+				"min": 0,
+				"probability": 10
+			},
+			"metal": {
+				"max": 3,
+				"min": 0,
+				"probability": 10
+			},
+			"medicine": {
+				"max": 0,
+				"min": 0,
+				"probability":0
+			},
+			"fuel": {
+				"max": 0,
+				"min": 0,
+				"probability": 0
+			}
+		},
+     "grass": {
+			"water": {
+				"max": 0,
+				"min": 0,
+				"probability": 0
+			},
+			"food": {
+				"max": 0,
+				"min": 0,
+				"probability": 0
+			},
+			"wood": {
+				"max": 0,
+				"min": 0,
+				"probability": 0
+			},
+			"metal": {
+				"max": 0,
+				"min": 0,
+				"probability": 0
+			},
+			"medicine": {
+				"max": 0,
+				"min": 0,
+				"probability": 0
+			},
+			"fuel": {
+				"max": 0,
+				"min": 0,
+				"probability": 0
+            }
+        },
+		"supermarket": {
+			"water": {
+				"max": 10,
+				"min": 5,
+				"probability": 10
+			},
+			"food": {
+				"max": 40,
+				"min": 20,
+				"probability": 20
+			},
+			"wood": {
+				"max": 3,
+				"min": 0,
+				"probability": 10
+			},
+			"metal": {
+				"max": 3,
+				"min": 0,
+				"probability": 10
+			},
+			"medicine": {
+				"max": 0,
+				"min": 0,
+				"probability": 0
+			},
+			"fuel": {
+				"max": 0,
+				"min": 0,
+				"probability": 0
+			} 
+		}   
+    }
+}

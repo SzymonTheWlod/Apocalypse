@@ -1,0 +1,50 @@
+{
+    "-1": {
+        "name": "Destroyed",
+    "file_path": "data/Buildings/DESTROYED.png"
+	},
+	"0": {
+		"name": "Town Hall",
+        "file_path": "data/Buildings/TOWNHALL.png"
+	},
+    "1": {
+		"name": "Houses",
+        "file_path": "data/Buildings/HOUSE.png"
+	},
+        "2": {
+		"name": "Flats",
+        "file_path": "data/Buildings/FLATS.png"
+	},
+        "3": {
+		"name": "Hospital",
+        "file_path": "data/Buildings/HOSPITAL.png"
+	},
+        "4": {
+		"name": "School",
+        "file_path": "data/Buildings/SCHOOL.png"
+	},
+        "5": {
+		"name": "Police Station",
+        "file_path": "data/Buildings/POLICE.png"
+	},
+        "6": {
+		"name": "Fire Station",
+        "file_path": "data/Buildings/FIRE.png"
+	},
+        "7": {
+		"name": "University",
+        "file_path": "data/Buildings/UNIVERSITY.png"
+	},
+        "8": {
+		"name": "Water Plant",
+        "file_path": "data/Buildings/WATER.png"
+	},
+        "9": {
+		"name": "Grass",
+        "file_path": "data/Buildings/GRASS.png"
+    },
+        "10": {
+		"name": "Supermarket",
+        "file_path": "data/Buildings/SHOPS.png"
+	}
+}

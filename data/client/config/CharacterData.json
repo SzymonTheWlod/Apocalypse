@@ -1,0 +1,14 @@
+{
+	"scout": {
+		"description": "Egale Eyes. can see futher, move and scout faster. But scavanges less.  "
+	},
+	"medic": {
+		"description": "Keep your team alive. Heals faster and heals more health for each med."
+	},
+	"builder": {
+		"description": "Construction expert. Can carry more resources, can build faster and cheaper (building W.I.P)."
+	},
+	"soldier": {
+		"description": "Master at combat. Has more health and deals more damage in combat (combat W.I.P)."
+	}
+}

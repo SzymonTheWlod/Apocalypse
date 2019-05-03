@@ -1,0 +1,25 @@
+{
+	"options": {
+		"background" : "data/Options.png",
+		"progress_bar" : 
+		{
+			"background": "data/default_white.png",
+			"fill": "data/default_grey.png"
+		},
+		"button" :
+		{
+			"default" : "data/Buttons/Button.png",
+			"pressed" : "data/Buttons/Button2.png",
+            "plus_default" : "data/Buttons/Plus.png",
+			"plus_pressed" : "data/Buttons/Plus2.png",
+            "minus_default" : "data/Buttons/Minus.png",
+			"minus_pressed" : "data/Buttons/Minus2.png",
+			"close_default" : "data/Buttons/close.png",
+			"close_pressed" : "data/Buttons/close2.png",
+            "menu_default" : "data/Buttons/menu.png",
+			"menu_pressed" : "data/Buttons/menu2.png",
+            "exit_default" : "data/Buttons/Exit.png",
+			"exit_pressed" : "data/Buttons/Exit2.png"
+		}
+	}
+}

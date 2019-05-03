@@ -1,0 +1,24 @@
+{
+	"music" :
+   {
+    "0": "data/Audio/Main_Menu.wav",
+	"1": "data/Audio/background_track.wav"
+
+   },
+	"fx" :
+   {
+	"0": "data/Audio/Events/avalanche.wav",
+    "1": "data/Audio/Events/Explosion.wav",
+    "2": "data/Audio/Events/Thunder.wav",
+    "3": "data/Audio/Events/Tornnado.wav",
+    "4": "data/Audio/Events/Tremor.wav",
+    "5": "data/Audio/Events/Tsunami.wav",
+    "6": "data/Audio/Events/WildFIre.wav",
+    "7": "data/Audio/UI_Sounds/Heal.wav",
+    "8": "data/Audio/UI_Sounds/Move.wav",
+    "9": "data/Audio/UI_Sounds/Scavange.wav",
+    "10": "data/Audio/UI_Sounds/Scout.wav",
+    "11": "data/Audio/UI_Sounds/Your_Turn.wav",
+    "12": "data/Audio/Events/Meteor.wav"
+   }
+}

@@ -1,0 +1,136 @@
+{
+	"event_id":{
+    
+    "0":{
+        "anim_speed": 200,
+        "duration": 1100,
+        "height": 80,
+        "width" :80,
+        "sound_effect": 1,
+        "file_paths":{
+            "0" : "data/Events/Explosion/explosion1.png",
+            "1" : "data/Events/Explosion/explosion2.png",
+            "2" : "data/Events/Explosion/explosion3.png",
+            "3" : "data/Events/Explosion/explosion4.png",
+            "4" : "data/Events/Explosion/explosion5.png",
+            "5" : "data/Events/Explosion/explosion6.png"
+        }
+    },
+        
+       "1":{
+        "anim_speed": 100,
+        "duration": 500,
+        "height": 50,
+        "width" :50,
+        "sound_effect": 4,
+        "file_paths":{
+            "0" : "data/Events/Earthquake/earthquake1.png",
+            "1" : "data/Events/Earthquake/earthquake2.png",
+            "2" : "data/Events/Earthquake/earthquake3.png",
+            "3" : "data/Events/Earthquake/earthquake4.png",
+            "4" : "data/Events/Earthquake/earthquake5.png"
+        }
+    },
+        
+           "2":{
+        "anim_speed": 200,
+        "duration": 1100,
+        "height": 60,
+        "width" :60,
+        "sound_effect": 3,
+        "file_paths":{
+            "0" : "data/Events/Tornado/tornado1.png",
+            "1" : "data/Events/Tornado/tornado2.png",
+            "2" : "data/Events/Tornado/tornado3.png",
+            "3" : "data/Events/Tornado/tornado4.png"
+        }
+    },
+           "3":{
+        "anim_speed": 200,
+        "duration": 1100,
+        "height": 50,
+        "width" :50,
+        "sound_effect": 2,
+        "file_paths":{
+            "0" : "data/Events/Thunder/thunder1.png",
+            "1" : "data/Events/Thunder/thunder2.png",
+            "2" : "data/Events/Thunder/thunder3.png",
+            "3" : "data/Events/Thunder/thunder4.png",
+            "4" : "data/Events/Thunder/thunder5.png",
+            "5" : "data/Events/Thunder/thunder6.png",
+            "6" : "data/Events/Thunder/thunder7.png",
+            "7" : "data/Events/Thunder/thunder8.png"
+        }
+    },
+           "4":{
+        "anim_speed": 200,
+        "duration": 1100,
+        "height": 50,
+        "width" :750,
+        "sound_effect": 0,
+        "file_paths":{
+            "0" : "data/Events/Avalanche/avalanche1.png",
+            "1" : "data/Events/Avalanche/avalanche2.png",
+            "2" : "data/Events/Avalanche/avalanche3.png",
+            "3" : "data/Events/Avalanche/avalanche4.png",
+            "4" : "data/Events/Avalanche/avalanche5.png",
+            "5" : "data/Events/Avalanche/avalanche6.png",
+            "6" : "data/Events/Avalanche/avalanche7.png",
+            "7" : "data/Events/Avalanche/avalanche8.png"
+        }
+    },
+              "5":{
+        "anim_speed": 200,
+        "duration": 1100,
+        "height": 80,
+        "width" :750,
+        "sound_effect": 5,
+        "file_paths":{
+            "0" : "data/Events/Tsunami/tsunami1.png",
+            "1" : "data/Events/Tsunami/tsunami2.png",
+            "2" : "data/Events/Tsunami/tsunami3.png",
+            "3" : "data/Events/Tsunami/tsunami4.png",
+            "4" : "data/Events/Tsunami/tsunami5.png",
+            "5" : "data/Events/Tsunami/tsunami6.png",
+            "6" : "data/Events/Tsunami/tsunami7.png",
+            "7" : "data/Events/Tsunami/tsunami8.png"
+        }
+    },
+              "6":{
+        "anim_speed": 200,
+         "duration": 1100,
+        "height": 160,
+        "width" :160,
+        "sound_effect": 6,
+        "file_paths":{
+           "0" : "data/Events/Fire/fire1.png",
+            "1" : "data/Events/Fire/fire2.png",
+            "2" : "data/Events/Fire/fire3.png",
+            "3" : "data/Events/Fire/fire4.png",
+            "4" : "data/Events/Fire/fire5.png",
+            "5" : "data/Events/Fire/fire6.png",
+            "6" : "data/Events/Fire/fire7.png",
+            "7" : "data/Events/Fire/fire8.png"
+        }
+    },
+              "7":{
+        "anim_speed": 100,
+        "duration": 750,
+        "height": 200,
+        "width" :240,
+        "sound_effect": 12,       
+        "file_paths":{
+            "0" : "data/Events/Meteor/meteor1.png",
+            "1" : "data/Events/Meteor/meteor2.png",
+            "2" : "data/Events/Meteor/meteor3.png",
+            "3" : "data/Events/Meteor/meteor4.png",
+            "4" : "data/Events/Meteor/meteor5.png",
+            "5" : "data/Events/Meteor/meteor6.png",
+            "6" : "data/Events/Meteor/meteor7.png",
+            "7" : "data/Events/Meteor/meteor8.png"
+
+        }
+    }
+    
+}
+}
